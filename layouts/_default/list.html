@@ -1,6 +1,6 @@
 {{define "main"}}
 <div class="main">
-  <html style="background-image: url('img/dish.JPG'); background-color: white">
+  <html style="background-image: url('/img/dish.JPG'); background-color: white">
 
 <!--_index.md-->
 {{if not .IsHome}}
@@ -31,8 +31,7 @@
   <a href="{{.RelPermalink}}">
   <div class="card" style="background-image: url({{.Param "thumbnail"}})">
       <h3>{{.Title}}</h3>
-    {{with .Lastmod}}<div class="card-date">{{dateFormat "2006-01-02" .}}</div>{{end}}
-    {{if site.Params.summary}}<div>{{.Summary}}</div>{{end}}	
+    {{with .Lastmod}}<div id="card-date">{{dateFormat "2006-01-02" .}}</div>{{end}}	
   </div> </a>
   {{end}}
 </section>
