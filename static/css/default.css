@@ -571,9 +571,10 @@ header nav li {
 }
 
 ul, ol {
-  font-size: 14px;
+  font-size: .9em;
   margin: 0 2em 0 2em;
   line-height: 1.7em;
+
 }
 
 ul ul {
