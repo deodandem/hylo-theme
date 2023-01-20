@@ -1,6 +1,7 @@
 html {
-  font-family: 'Charter';
+  font-family: 'Helvetica Neue';
   font-size: 14px;
+  font-weight: 500;
   height: 100%;
   background:  no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -54,11 +55,11 @@ hr.between-updates:after {
 }
 
 div, p {
-    line-height: 1.75em;
+    line-height: 1.7em;
     font-size: 15px;
     text-align: left;
     font-family: 'Charter';
-    font-weight:300;
+    font-weight:500;
 }
 
 img {
@@ -95,7 +96,7 @@ blockquote {
     color: rgb(0,0,0,.7);
     line-height: 1.75em;
     font-family: 'Charter';
-    font-weight: 300;
+    font-weight: 400;
     max-height: 52em;
     overflow-y: auto;
     padding: 20px 50px 10px 50px;
@@ -315,7 +316,7 @@ to {
 pre {
   max-width: 650px;
   overflow-x: scroll;
-  font-family: 'Charter';
+  font-family: 'Helvetica Neue';
   font-size:15px;
   background-color: rgb(240,240,230,.2);
   border-radius: 15px;
@@ -330,7 +331,7 @@ pre {
 }
 
 .content-box {
-    background-color: rgb(252,254,252);
+    background-color: rgb(254,254,254);
     border: 1px solid grey;
     width: 650px;
     padding: 50px 70px 50px 70px; 
@@ -631,7 +632,7 @@ footer {
 
 .card h3,
 .card p {
-  font-family: 'Charter';
+  font-family: 'Helvetica Neue';
   color: rgb(255,255,255,.9);
   text-shadow: 0 0 5px grey;
   font-size:20px;
@@ -650,9 +651,10 @@ footer {
 #card-date {
   color: rgb(255,255,255,.6);
   text-shadow: 0 0 5px grey;
+  font-family: 'Helvetica';
   font-size:20px;
   text-align: right;
-  font-weight: 350;
+  font-weight: 300;
   position: absolute;
   bottom: 0;
   right: 0;
