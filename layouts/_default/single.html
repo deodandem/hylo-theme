@@ -6,11 +6,12 @@
 	<div class="main">  
 	
 		<a href="/"><h1>{{.Title}}</h1></a>   
-        <!--Date--><div class="subtitle">
-        {{with .PublishDate}}{{dateFormat "Monday, 1/2/06 at 3:04 PM" .}}{{end}}<br>
+        <!--Date-->
+		<div class="subtitle">
+        {{with .PublishDate}}{{dateFormat "Monday, 1/2/06 at 3:04 PM" .}}{{end}}
         <!--LastMod-->
         {{if ne .Lastmod .PublishDate}}
-              Updated: {{with .Lastmod}}{{dateFormat "1/2/06 at 3:04 PM" .}} {{end}}
+		— Updated: {{with .Lastmod}}{{dateFormat "1/2/06 at 3:04 PM" .}} {{end}}
         {{end}}</div>
 			
 			<div class="content-box">
